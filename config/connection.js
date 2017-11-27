@@ -4,10 +4,10 @@ var mysql = require('mysql');
 // Create the MySQL connection object
 var connection = mysql.createConnection({
 		port: 3306 ,
-		host: 'localhost' || 'lgg2gx1ha7yp2w0k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-		user: 'root' || 'exmkvei3vy56kpoc',
-		password: 'ralph123' || 'djaz0nvbprvpi8ry',
-		database: 'burgers_db' || 't0eda42kl7b7cpmp'
+		host: 'lgg2gx1ha7yp2w0k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' || 'localhost',
+		user: 'exmkvei3vy56kpoc' || 'root',
+		password: 'djaz0nvbprvpi8ry' || 'ralph123',
+		database: 't0eda42kl7b7cpmp' || 'burgers_db'
 	});
 
 // Make the connection to MySQL
